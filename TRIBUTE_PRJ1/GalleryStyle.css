@@ -1,0 +1,135 @@
+.gallery1 {
+  height: 50rem;
+  border-radius: 40px 0px 0px 40px;
+  margin: 30px;
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.gallery1:hover {
+  box-shadow: 1px 1px 30px yellow;
+}
+.gallery1 blockquote {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  margin: 5px;
+  border: 2px solid yellow;
+  border-radius: 26px;
+  width: 573px;
+  height: 288px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery1 q {
+  font-size: larger;
+  padding: 8px;
+}
+
+.gallery1 i {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding: 17px;
+  width: 74px;
+  height: 3px;
+}
+
+.gl1Img {
+  background-image: url(./RESURSE/black-mamba-kobe.jpg);
+  background-repeat: no-repeat;
+  height: 25rem;
+  width: 30rem;
+  display: flex;
+}
+
+.gl1Img2 {
+  background-image: url(./RESURSE/Kobe-Bryant-Poster.jpg);
+  background-repeat: no-repeat;
+  height: 25rem;
+  width: 37rem;
+  display: flex;
+}
+
+.gallery2 {
+  height: 50rem;
+  margin: 80px 30px 30px 30px;
+  padding: 10px 30px;
+  border-radius: 0px 40px 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+
+  justify-content: space-around;
+}
+
+.gallery2:hover {
+  box-shadow: 1px 1px 30px yellow;
+}
+
+.gallery2 blockquote {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  margin: 5px;
+  border: 2px solid yellow;
+  border-radius: 26px;
+  width: 586px;
+  height: 288px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery2 i {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding: 17px;
+  width: 74px;
+  height: 3px;
+}
+
+.gallery2 q {
+  font-size: larger;
+  padding: 8px;
+}
+
+.gl2Img {
+  background-image: url(./RESURSE/hq720.jpg);
+  background-repeat: no-repeat;
+  height: 25rem;
+  width: 38rem;
+  display: flex;
+}
+
+.gl2Img2 {
+  background-image: url(./RESURSE/6Mamba.jpg);
+  background-repeat: no-repeat;
+  height: 25rem;
+  width: 31rem;
+  display: flex;
+}
+
+.gallery3 {
+  height: 50rem;
+  margin: 30px;
+  padding: 10px 30px;
+  display: flex;
+}
+
+.gallery3:hover {
+  box-shadow: 1px 1px 30px yellow;
+}
+
+.gl3Img {
+  background-image: url(./RESURSE/USA_Basketball_Kobe_01-26-20.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 49rem;
+  width: 87rem;
+  display: flex;
+}
